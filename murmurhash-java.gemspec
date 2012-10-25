@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|  
   s.name        = 'murmurhash-jruby'
-  s.version     = '1.0.6'
+  s.version     = '1.0.7'
   s.authors     = ['Viliam']
   s.platform    = 'java'
   s.email       = ['']
@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.description = 'MurmurHash Gem'
   s.require_paths = ["lib"]
  
-  s.files         = Dir.glob("{lib/**/*.rb}") + Dir.glob("{lib/**/*.jar}") + Dir.glob("{src/**/*.java}")
+  s.files         = Dir.glob("{target/**/*.class}") Dir.glob("{src/**/*.java}")
 end
