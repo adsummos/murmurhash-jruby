@@ -1,3 +1,5 @@
+package ext;
+
 // Takes the field specified in the FIELD_TO_HASH pararmeter and create 32-bit Murmur hash out of it in a field called HashedId
 // Using Murmurhash from http://murmurhash.googlepages.com/
 
