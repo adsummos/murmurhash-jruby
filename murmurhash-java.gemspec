@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.summary     = 'Murmur Hash'
   s.description = 'MurmurHash Gem'
  
-  s.files         = Dir.glob("{src/**/*.java}")
+  s.files         = Dir.glob("{lib/**/*.jar}") + Dir.glob("{src/**/*.java}")
 end
