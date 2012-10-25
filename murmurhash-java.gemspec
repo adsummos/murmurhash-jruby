@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|  
   s.name        = 'murmurhash-jruby'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.authors     = ['Viliam']
   s.platform    = 'java'
   s.email       = ['']
