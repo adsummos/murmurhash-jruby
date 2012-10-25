@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.homepage    = ''
   s.summary     = 'Murmur Hash'
   s.description = 'MurmurHash Gem'
-  s.require_paths = ["lib"]
  
-  s.files         = Dir.glob("{target/**/*.class}") + Dir.glob("{src/**/*.java}")
+#  s.files         = Dir.glob("{src/**/*.java}")
 end
